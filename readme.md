@@ -6,6 +6,13 @@ OBS:
 Eu preferi não ir além do que foi pedido na resolução, a fim de manter a simplicicade proposta no desafio. 
 Sendo assim, utilizei HTML, CSS e TypeScript, e não implementei nada além do que foi pedido, mas eu poderia fazer outras funcionalidades como editar, deletar e utilizar frameworks como ReactJS e NodeJS, juntamente com Banco de Dados.
 
+## Código fonte e deploy
+
+Você pode encontrar o código fonte da aplicação no meu github e pode testar a aplicação online
+
+1. Github: https://github.com/filipelimavaz/cadastro-listagem-produtos
+2. Aplicação Online: https://filipelimavaz-cadastro-listagem-prod.netlify.app/
+
 ## Pré-requisitos
 
 Para rodar esse projeto você precisa ter o Node.js e o TypeScript
