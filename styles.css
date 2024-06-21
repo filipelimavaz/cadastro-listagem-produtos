@@ -1,0 +1,89 @@
+:root {
+    --background-color: #f0f0f0;
+    --container-bg-color: #fff;
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+    --button-bg-color: #007bff;
+    --button-hover-bg-color: #0056b3;
+    --button-text-color: #fff;
+    --table-header-bg-color: #f2f2f2;
+    --table-row-hover-bg-color: #f1f1f1;
+    --border-color: #ddd;
+    --text-color: #000;
+    --input-border-color: #333;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--container-bg-color);
+    box-shadow: 0 0 10px var(--box-shadow-color);
+    border-radius: 5px;
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 16px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input, select, button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid var(--input-border-color);
+}
+
+button {
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 6px;
+}
+
+button:hover {
+    background-color: var(--button-hover-bg-color);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+th {
+    background-color: var(--table-header-bg-color);
+}
+
+tr:hover {
+    background-color: var(--table-row-hover-bg-color);
+}
